@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/codespaces-blank/Day 1/Array program 1/Debug",
-      "program": "/workspaces/codespaces-blank/Day 1/Array program 1/Debug/build/Debug/outDebug",
+      "cwd": "/workspaces/codespaces-blank/Day 3",
+      "program": "/workspaces/codespaces-blank/Day 3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
