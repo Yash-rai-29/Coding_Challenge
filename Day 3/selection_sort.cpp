@@ -1,17 +1,19 @@
 #include<iostream>
 using namespace std;
-int selectionsort(int a[],int n){
+
+void selectionsort(int a[],int n){
     for(int i=0;i<n-1;i++){
         int min=i;
-        for(int j=i+1;j<n-1;j++){
+        for(int j=i+1;j<n;j++){
             if(a[j]<a[min]){
                 min=j;
             }
-             if (min!=i)
-            swap(a[i],a[min]);
         }
+        if (min!=i)
+            swap(a[i],a[min]);
     }
 }
+
 int main(){
     int a[1000],n;
     cout<<"Enter the number of array elements: ";
